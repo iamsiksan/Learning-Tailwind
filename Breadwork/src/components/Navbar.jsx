@@ -69,6 +69,12 @@ function Navbar() {
                     <img src={assets.dropdown_icon} className=' h-4 rotate-180' alt="" />
                     <p>Back</p>
                 </div>
+                <NavLink to='/'  onClick={()=>setVisible(false)} className='py-2 pl-6 border-b border-gray-200'>Home</NavLink>
+                <NavLink to='/explore' onClick={()=>setVisible(false)} className='py-2 pl-6 border-b border-gray-200'>Explore</NavLink>
+                <NavLink to='/hiretalent' onClick={()=>setVisible(false)} className='py-2 pl-6 border-b border-gray-200'>Hire Talent</NavLink>
+                <NavLink to='/gethired' onClick={()=>setVisible(false)} className='py-2 pl-6 border-b border-gray-200'>Get Hired</NavLink>
+                <NavLink to='/community' onClick={()=>setVisible(false)} className='py-2 pl-6 border-b border-gray-200'>Community</NavLink>
+                
 
             </div>
 
