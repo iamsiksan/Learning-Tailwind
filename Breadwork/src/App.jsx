@@ -6,6 +6,7 @@ import Explore from './pages/Explore'
 import HireTalent from './pages/HireTalent'
 import GetHired from './pages/GetHired'
 import Community from './pages/Community'
+import Facebook from './pages/Facebook'
 
 
 
@@ -21,6 +22,14 @@ function App() {
         <Route path='/hiretalent' element={<HireTalent />} />
         <Route path='/gethired' element={<GetHired />} />
         <Route path='/community' element={<Community />} />
+
+
+
+
+        <Route path='/explore/facebook' element={<Facebook />} />
+
+
+
 
 
       </Routes>

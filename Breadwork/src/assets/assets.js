@@ -7,6 +7,8 @@ import profile_icon from './profile_icon.png'
 import menu_icon from './menu_icon.png'
 import dropdown_icon from './dropdown_icon.png'
 import hero_image from './hero_image.jpg'
+import facebook_thumbnail from './facebook_thumbnail.png'
+import facebook from './facebook.svg'
 
 
 
@@ -20,5 +22,7 @@ export const assets={
     profile_icon,
     menu_icon,
     dropdown_icon,
-    hero_image
+    hero_image,
+    facebook_thumbnail,
+    facebook
 }

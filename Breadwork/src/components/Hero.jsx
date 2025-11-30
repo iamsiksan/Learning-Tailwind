@@ -20,8 +20,8 @@ function Hero() {
         </div>
 
         <div className='flex mt-5 '>
-            <a href="" role='button' className='text-xs sm:text-sm bg-blue-500 px-3 py-2 rounded-3xl text-white hover:text-black hover:bg-white '>Get started</a>
-            <a href="" role='button' className='text-xs sm:text-sm bg-white px-3 py-2 rounded-3xl text-black border mx-2 '>Join Community</a>
+            <a href="" role='button' className='text-xs sm:text-sm bg-[#01b3df] px-3 py-2 rounded-3xl text-white hover:text-black hover:bg-white '>Get started</a>
+            <a href="" role='button' className='text-xs sm:text-sm bg-white px-3 py-2 rounded-3xl text-[#003140] border mx-2 '>Join Community</a>
 
         </div>
 

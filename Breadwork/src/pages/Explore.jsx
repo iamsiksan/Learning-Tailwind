@@ -1,9 +1,23 @@
-import React from 'react'
+import Card from "../components/Card";
+import { cardData } from "../data/cardData";
 
-function Explore() {
+const Explore = () => {
   return (
-    <div>Explore</div>
-  )
-}
+    <div className="p-6">
 
-export default Explore
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {cardData.map((card, index) => (
+          <Card
+            key={index}
+            title={card.title}
+            description={card.description}
+            image={card.image}
+            link={card.link}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Explore;
