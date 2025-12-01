@@ -1,20 +1,20 @@
 import { Link } from "react-router-dom";
 
-const Card = ({ title, description, image, link }) => {
+const Card = ({ card }) => {
   return (
-    <Link to={link} className="block">
+    <Link to={card.link} className="block">
       <div className="w-full rounded-xl bg-white p-4 space-y-3 shadow-xl/20 transition">
         
         <img 
-          src={image}
-          alt={title}
+          src={card.image}
+          alt={card.title}
           className="h-40 w-full object-cover rounded-xl"
         />
 
-        <h2 className="font-bold text-lg">{title}</h2>
+        <h2 className="font-bold text-lg">{card.title}</h2>
 
         <p className="text-gray-500 text-sm line-clamp-2">
-          {description}
+          {card.description}
         </p>
 
         <span className="text-white text-sm bg-[#003140] px-3 py-2 rounded-md ">Visit Now</span>

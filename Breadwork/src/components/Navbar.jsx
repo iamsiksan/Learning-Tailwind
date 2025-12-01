@@ -8,7 +8,7 @@ function Navbar() {
     
   return (
     
-    <div className='flex items-center justify-between py-5 font-medium'>
+    <div className='flex sticky top-0 bg-white h-20 sm:h-30 items-center justify-between py-5 font-medium'>
         <img src={assets.Breadwork_logo2} className='w-40' alt="" />
         
         <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
@@ -40,7 +40,7 @@ function Navbar() {
         </NavLink>
         </ul>
 
-        <div className='flex items-center gap-6'>
+        <div className='flex items-center gap-6 px-4'>
             <img src={assets.search_icon} className='w-5 cursor-pointer' alt="" />
 
             <div className='group relative'>

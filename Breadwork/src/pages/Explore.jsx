@@ -9,10 +9,7 @@ const Explore = () => {
         {cardData.map((card, index) => (
           <Card
             key={index}
-            title={card.title}
-            description={card.description}
-            image={card.image}
-            link={card.link}
+            card={card}
           />
         ))}
       </div>
