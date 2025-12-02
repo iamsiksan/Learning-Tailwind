@@ -24,6 +24,9 @@ import microsoft_xbox_img from './microsoft_xbox_img.avif'
 import microsoft_surfacepro9 from './microsoft_surfacepro9.webp'
 import microsoft_365subscription from './microsoft_365subscription.jpg'
 import microsoft_surfaceheadphones from './microsoft_surfaceheadphones.webp'
+import microsoft_page_img1 from './microsoft_page_img1.avif'
+import apple_thumbnail from './apple_thumbnail.jpeg'
+import flexgrid_thumbnail from './flexgrid_thumbnail.jpg'
 
 
 
@@ -54,6 +57,9 @@ export const assets={
     microsoft_xbox_img,
     microsoft_surfacepro9,
     microsoft_365subscription,
-    microsoft_surfaceheadphones
+    microsoft_surfaceheadphones,
+    microsoft_page_img1,
+    apple_thumbnail,
+    flexgrid_thumbnail
 
 }

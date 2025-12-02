@@ -8,8 +8,8 @@ function Navbar() {
     
   return (
     
-    <div className='flex sticky top-0 bg-white h-20 sm:h-30 items-center justify-between py-5 font-medium'>
-        <img src={assets.Breadwork_logo2} className='w-40' alt="" />
+    <div className='flex  bg-white items-center justify-between py-5 font-medium '>
+        <NavLink to='/'><img src={assets.Breadwork_logo2} className='w-40 cursor-pointer' alt="" /></NavLink>
         
         <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
 
@@ -63,7 +63,7 @@ function Navbar() {
 
         {/* Sidebar menu for smaller screen */}
 
-        <div className={`absolute top-0 right-0 bottom-0 overflow-hidden bg-white transition-all ${visible ? 'w-full' : 'w-0'}`}>
+        <div className={`absolute top-0 right-0 bottom-0 overflow-hidden z-50 bg-white transition-all ${visible ? 'w-full' : 'w-0'}`}>
             <div className='flex flex-col text-gray-600'>
                 <div onClick={()=>setVisible(false)} className='flex items-center gap-4 p-3'>
                     <img src={assets.dropdown_icon} className=' h-4 rotate-180' alt="" />

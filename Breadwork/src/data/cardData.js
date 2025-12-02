@@ -14,6 +14,20 @@ export const cardData = [
   image: assets.microsoft_thumbnail, 
   link: "/explore/microsoft"
 },
+ {
+  title: "Apple Clone",
+  description: "A polished Apple UI clone with a clean, minimalist, and responsive design inspired by Apple’s Human Interface Guidelines. Users can explore products, access apps and settings, navigate seamlessly, and enjoy smooth, intuitive interactions that mirror Apple’s iconic aesthetic and user experience.",
+  image: assets.apple_thumbnail, 
+  link: "/explore/apple"
+},
+ {
+  title: "Flex & Grid",
+  description: "A practice project to master Tailwind CSS layouts using Flexbox and Grid. Focused on aligning content, creating responsive sections, and experimenting with modern layout techniques",
+  image: assets.flexgrid_thumbnail, 
+  link: "/explore/flexgrid"
+},
+ 
+
  
 
 

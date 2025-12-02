@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import MicrosoftCard from "../components/MicrosoftCard";
 import { microsoftData } from "../data/microsoftData";
+import ScrollToTopButton from '../components/ScrollToTopButton';
 
 function Microsoft() {
   const [visible, setVisible] = useState(false);
@@ -180,7 +181,7 @@ function Microsoft() {
       {/* Hero Section */}
 
       <div
-        className="w-full flex flex-col sm:flex-row items-center bg-cover bg-center min-h-[400px] sm:min-h-[300px]"
+        className="hero-section w-full flex flex-col sm:flex-row items-center bg-cover bg-center min-h-[400px] sm:min-h-[300px]"
         style={{ backgroundImage: `url(${assets.microsoft_hero_bg})` }}
       >
         {/* Hero left */}
@@ -207,6 +208,8 @@ function Microsoft() {
           />
         </div>
       </div>
+
+      <ScrollToTopButton />
 
       {/* Cyber week deals */}
       <div className=" w-full flex items-center justify-between text-medium sm:text-sm px-4 ">
@@ -269,13 +272,126 @@ function Microsoft() {
       <div className="flex flex-col p-4 space-y-4">
         <p className="text-3xl font-semibold">Start the season with savings</p>
         <div className="p-6">
-          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4 ">
             {microsoftData.map((card, index) => (
               <MicrosoftCard key={index} card={card} />
             ))}
           </div>
         </div>
       </div>
+
+
+      {/* Inquiry Section */}
+
+            <div
+            className="w-full flex flex-col sm:flex-row items-center justify-center bg-cover bg-center min-h-[300px] sm:min-h-[100px] py-5"
+        style={{ backgroundImage: `url(${assets.microsoft_hero_bg})` }}
+            > 
+            <iv className="flex flex-col items-center w-full space-y-5">
+
+            <h1 className="text-white font-semibold text-xl sm:text-2xl">Shopping for gifts? We're here to help.</h1>
+            <input type="text" placeholder="Ask me a question" className="h-10 sm:w-1/2 text-xs pl-2 text-gray-500 bg-white rounded border-b border-sky-600" name="" id="" />
+            <div className="flex space-x-4">
+              <a href="" className="bg-gray-200 rounded-3xl py-2 px-6">Gift for gamers</a>
+              <a href="" className="bg-gray-200 rounded-3xl py-2 px-6">Best pc deals</a>
+              <a href="" className="bg-gray-200 rounded-3xl py-2 px-6">Gift under 1000$</a>
+            </div>
+            </iv>
+
+            </div>
+
+            {/* Display exclusive News section */}
+
+            <div
+            className="w-full flex  items-center  justify-end p-10 bg-cover bg-center min-h-[400px] sm:min-h-[500px] py-5"
+        style={{ backgroundImage: `url(${assets.microsoft_page_img1})` }}
+            >
+              <div className="flex flex-col self-center w-1/2 space-y-4">
+                <h1 className=" text-base sm:text-3xl font-semibold">Meet the computer you can talk to</h1>
+                <p className="text-sm sm:text-xl">We typed, we clicked, now we're talking</p>
+                <a href="" className="bg-blue-500  py-2 px-4 text-white text-sm w-fit">Meet windows 11</a>
+
+              </div>
+
+            </div>
+
+
+            {/* footer section */}
+
+            <div className="flex flex-col bg-gray-300 w-full  ">
+              <div className="flex p-5 justify-between ">
+                <div className="flex flex-col space-y-3 text-gray-600">
+                  <p className="font-semibold text-xs sm:text-sm">What's New</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+
+                </div>
+                <div className="flex flex-col space-y-3 text-gray-600">
+                  <p className="font-semibold text-xs sm:text-sm">Microsoft Store</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+
+                </div>
+                <div className="flex flex-col space-y-3 text-gray-600">
+                  <p className="font-semibold text-xs sm:text-sm">Education</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+
+                </div>
+                <div className="flex flex-col space-y-3 text-gray-600">
+                  <p className="font-semibold text-xs sm:text-sm">Development and IT</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+
+                </div>
+                <div className="flex flex-col space-y-3 text-gray-600">
+                  <p className="font-semibold text-xs sm:text-sm">Company</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+                  <p className="text-xs sm:text-xs">Surface pro</p>
+
+                </div>
+
+              </div>
+
+              <div className="flex text-xs space-x-4 mb-5">
+
+                <a href="" className="underline">English (United states)</a>
+                <a href="" className="underline">Your Privacy choices</a>
+                <a href="" className="underline">Consumer health Privacy</a>
+
+            </div>
+              </div>
+
     </div>
   );
 }

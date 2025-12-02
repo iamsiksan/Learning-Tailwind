@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Card = ({ card }) => {
   return (
     <Link to={card.link} className="block">
-      <div className="max-w-sm h-full flex flex-col items-start bg-white  space-y-3 shadow-xl/20 transition">
+      <div className="w-full sm:max-w-sm h-full flex flex-col items-start bg-white  space-y-3 shadow-xl/20 transition">
         <img
           src={card.image}
           alt={card.title}
