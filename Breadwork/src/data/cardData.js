@@ -26,6 +26,12 @@ export const cardData = [
   image: assets.flexgrid_thumbnail, 
   link: "/explore/flexgrid"
 },
+{
+  title: "Overflow & Overscroll",
+  description: "A hands-on practice project to understand how content behaves when it exceeds boundaries, using Tailwind’s overflow and overscroll utilities to create scrollable areas, hidden sections, and controlled scrolling experiences.",
+  image: assets.overflowoverscroll_thumbnail,
+  link: "/explore/overflowoverscroll",
+},
  
 
  

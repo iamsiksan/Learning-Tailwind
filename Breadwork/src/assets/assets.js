@@ -27,6 +27,8 @@ import microsoft_surfaceheadphones from './microsoft_surfaceheadphones.webp'
 import microsoft_page_img1 from './microsoft_page_img1.avif'
 import apple_thumbnail from './apple_thumbnail.jpeg'
 import flexgrid_thumbnail from './flexgrid_thumbnail.jpg'
+import overflowoverscroll_thumbnail from './overflowoverscroll_thumbnail.webp'
+import woman from './woman.png'
 
 
 
@@ -60,6 +62,8 @@ export const assets={
     microsoft_surfaceheadphones,
     microsoft_page_img1,
     apple_thumbnail,
-    flexgrid_thumbnail
+    flexgrid_thumbnail,
+    overflowoverscroll_thumbnail,
+    woman
 
 }
