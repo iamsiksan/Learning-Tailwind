@@ -3,3 +3,8 @@
 a.active hr{
     display: block;
 }
+
+
+@theme{
+   --color-blueButton: #0000ff;
+  }

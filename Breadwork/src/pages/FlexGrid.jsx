@@ -51,7 +51,7 @@ function FlexGrid() {
           <div className="flex bg-[#f95738] w-full "></div>
           <div className="flex bg-[#ee964b] w-full "></div>
         </div>
-        <div className="flex  bg-[#f95738] w-full h-50 px-5">
+        <div className="flex flex-col sm:flex-row overflow-hidden bg-[#f95738] w-full h-50 px-5">
           <div className="flex flex-col space-y-2 m-5">
             <div className="bg-amber-50 w-20 h-5 rounded"></div>
             <div className="bg-amber-50 w-20 h-5 rounded"></div>
